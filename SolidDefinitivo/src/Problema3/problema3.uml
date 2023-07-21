@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>problema3</OriginalElement>
+  <nodes>
+    <node x="1057.0" y="168.0">problema3.MatriculaColegio</node>
+    <node x="391.13750000000005" y="-15.0">problema3.Matricula</node>
+    <node x="790.575" y="329.0">problema3.Principal</node>
+    <node x="-99.0" y="134.0">problema3.TipoMatricula</node>
+    <node x="143.0" y="168.0">problema3.MatriculaJardin</node>
+    <node x="1397.0" y="168.0">problema3.MatriculaEscuela</node>
+    <node x="730.0" y="168.0">problema3.MatriculaCampamento</node>
+    <node x="429.0" y="168.0">problema3.MatriculaMaternal</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="problema3.MatriculaEscuela" target="problema3.Matricula" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1555.5" y="114.0" />
+      <point x="911.8875" y="114.0" />
+      <point x="911.8875" y="104.0" />
+      <point x="518.6375" y="104.0" />
+      <point x="42.5" y="49.5" />
+    </edge>
+    <edge source="problema3.Principal" target="problema3.TipoMatricula" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="866.575" y="304.0" />
+      <point x="11.999999999999886" y="304.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="problema3.TipoMatricula" target="problema3.Matricula" relationship="TO_MANY">
+      <point x="0.0" y="-72.5" />
+      <point x="12.0" y="104.0" />
+      <point x="433.63750000000005" y="104.0" />
+      <point x="-42.5" y="49.5" />
+    </edge>
+    <edge source="problema3.MatriculaColegio" target="problema3.Matricula" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="1217.0" y="114.0" />
+      <point x="911.8875" y="114.0" />
+      <point x="911.8875" y="104.0" />
+      <point x="518.6375" y="104.0" />
+      <point x="42.5" y="49.5" />
+    </edge>
+    <edge source="problema3.MatriculaJardin" target="problema3.Matricula" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="276.0" y="114.0" />
+      <point x="911.8875" y="114.0" />
+      <point x="911.8875" y="104.0" />
+      <point x="518.6375" y="104.0" />
+      <point x="42.5" y="49.5" />
+    </edge>
+    <edge source="problema3.Principal" target="problema3.MatriculaColegio" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="866.575" y="304.0" />
+      <point x="1217.0" y="304.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="problema3.MatriculaMaternal" target="problema3.Matricula" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="569.5" y="114.0" />
+      <point x="911.8875" y="114.0" />
+      <point x="911.8875" y="104.0" />
+      <point x="518.6375" y="104.0" />
+      <point x="42.5" y="49.5" />
+    </edge>
+    <edge source="problema3.Principal" target="problema3.MatriculaCampamento" relationship="CREATE">
+      <point x="0.0" y="-38.5" />
+      <point x="866.575" y="304.0" />
+      <point x="883.5" y="304.0" />
+      <point x="0.0" y="38.5" />
+    </edge>
+    <edge source="problema3.MatriculaCampamento" target="problema3.Matricula" relationship="GENERALIZATION">
+      <point x="0.0" y="-38.5" />
+      <point x="883.5" y="114.0" />
+      <point x="911.8875" y="114.0" />
+      <point x="911.8875" y="104.0" />
+      <point x="518.6375" y="104.0" />
+      <point x="42.5" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.5002727768685216" showDependencies="true" x="817.5" y="205.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
