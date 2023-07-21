@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>problema1</OriginalElement>
+  <nodes>
+    <node x="974.25" y="302.0">problema1.DatosPropiedades</node>
+    <node x="-113.5" y="137.0">problema1.Persona</node>
+    <node x="671.4635416666666" y="114.0">problema1.Pago</node>
+    <node x="1765.25" y="291.0">problema1.PagoLuzElectrica</node>
+    <node x="1164.25" y="291.0">problema1.PagoPredial</node>
+    <node x="1390.25" y="291.0">problema1.DatosLuz</node>
+    <node x="2103.25" y="291.0">problema1.DatosAgua</node>
+    <node x="-48.75" y="291.0">problema1.BilleteraPagos</node>
+    <node x="875.9635416666665" y="-15.0">problema1.Ciudad</node>
+    <node x="1597.25" y="302.0">problema1.DatosTelefono</node>
+    <node x="283.25" y="291.0">problema1.PagoTelefonoConvencional</node>
+    <node x="983.25" y="442.0">problema1.Principal</node>
+    <node x="634.25" y="291.0">problema1.PagoAguaPotable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="problema1.Principal" target="problema1.PagoTelefonoConvencional" relationship="CREATE">
+      <point x="-76.0" y="-15.0" />
+      <point x="448.75" y="465.5" />
+      <point x="-0.0" y="49.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.DatosAgua" relationship="CREATE">
+      <point x="76.0" y="-0.0" />
+      <point x="2208.75" y="480.5" />
+      <point x="-0.0" y="49.5" />
+    </edge>
+    <edge source="problema1.PagoLuzElectrica" target="problema1.Ciudad" relationship="TO_ONE">
+      <point x="-0.0" y="-49.5" />
+      <point x="1924.25" y="88.0" />
+      <point x="943.964" y="88.0" />
+      <point x="4.5833333354039496E-4" y="38.5" />
+    </edge>
+    <edge source="problema1.BilleteraPagos" target="problema1.Pago" relationship="TO_MANY">
+      <point x="-0.0" y="-49.5" />
+      <point x="107.25" y="231.5" />
+      <point x="-76.0" y="56.0" />
+    </edge>
+    <edge source="problema1.BilleteraPagos" target="problema1.Persona" relationship="TO_ONE">
+      <point x="-83.25" y="-49.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.PagoAguaPotable" relationship="CREATE">
+      <point x="-76.0" y="-30.0" />
+      <point x="794.25" y="450.5" />
+      <point x="-0.0" y="49.5" />
+    </edge>
+    <edge source="problema1.PagoAguaPotable" target="problema1.Pago" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="794.25" y="269.0" />
+      <point x="1042.0885416666665" y="269.0" />
+      <point x="1042.0885416666665" y="259.0" />
+      <point x="785.4635416666666" y="259.0" />
+      <point x="38.0" y="61.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.DatosPropiedades" relationship="CREATE">
+      <point x="-0.0" y="-38.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.DatosTelefono" relationship="CREATE">
+      <point x="76.0" y="-30.0" />
+      <point x="1671.25" y="450.5" />
+      <point x="-0.0" y="38.5" />
+    </edge>
+    <edge source="problema1.PagoTelefonoConvencional" target="problema1.Pago" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="448.75" y="269.0" />
+      <point x="1042.0885416666667" y="269.0" />
+      <point x="1042.0885416666665" y="259.0" />
+      <point x="785.4635416666666" y="259.0" />
+      <point x="38.0" y="61.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.Ciudad" relationship="CREATE">
+      <point x="15.0" y="38.5" />
+      <point x="1074.25" y="551.5" />
+      <point x="-161.0" y="551.5" />
+      <point x="-161.0" y="23.5" />
+      <point x="-68.0" y="-0.0" />
+    </edge>
+    <edge source="problema1.PagoLuzElectrica" target="problema1.Pago" relationship="GENERALIZATION">
+      <point x="-79.5" y="-49.5" />
+      <point x="1844.75" y="269.0" />
+      <point x="1042.0885416666665" y="269.0" />
+      <point x="1042.0885416666665" y="259.0" />
+      <point x="785.4635416666666" y="259.0" />
+      <point x="38.0" y="61.5" />
+    </edge>
+    <edge source="problema1.PagoPredial" target="problema1.Pago" relationship="GENERALIZATION">
+      <point x="0.0" y="-49.5" />
+      <point x="1267.25" y="269.0" />
+      <point x="1042.0885416666665" y="269.0" />
+      <point x="1042.0885416666665" y="259.0" />
+      <point x="785.4635416666666" y="259.0" />
+      <point x="38.0" y="61.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.PagoLuzElectrica" relationship="CREATE">
+      <point x="76.0" y="-15.0" />
+      <point x="1924.25" y="465.5" />
+      <point x="-0.0" y="49.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.DatosLuz" relationship="CREATE">
+      <point x="15.0" y="-38.5" />
+      <point x="1074.25" y="409.5" />
+      <point x="1483.75" y="409.5" />
+      <point x="-0.0" y="49.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.PagoPredial" relationship="CREATE">
+      <point x="76.0" y="30.0" />
+      <point x="1267.25" y="510.5" />
+      <point x="-0.0" y="49.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.Persona" relationship="CREATE">
+      <point x="-0.0" y="38.5" />
+      <point x="1059.25" y="536.5" />
+      <point x="-146.0" y="536.5" />
+      <point x="-146.0" y="175.5" />
+      <point x="-137.5" y="-0.0" />
+    </edge>
+    <edge source="problema1.Persona" target="problema1.Ciudad" relationship="TO_ONE">
+      <point x="-0.0" y="-38.5" />
+      <point x="24.0" y="88.0" />
+      <point x="943.964" y="88.0" />
+      <point x="4.5833333354039496E-4" y="38.5" />
+    </edge>
+    <edge source="problema1.Principal" target="problema1.BilleteraPagos" relationship="CREATE">
+      <point x="-76.0" y="30.0" />
+      <point x="107.25" y="510.5" />
+      <point x="-0.0" y="49.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3600314095013742" showDependencies="true" x="1051.5" y="268.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
